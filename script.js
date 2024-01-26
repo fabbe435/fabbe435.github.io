@@ -38,22 +38,23 @@ let förälder = document.getElementById("output-container");
 förälder.appendChild(third_paragraph);
 third_paragraph.style.color = "orange";
 
-// Nu ska vi öva på att dels lägga in flera barn i samma container
-// och samtidigt lära oss lite hur logiska operatorer fungerar
-// 5. Skapa en for-loop som itererar i från 0 till 30. Varje gång i är
-// delbart med 2 OCH 3 vill jag att ni
-// * Skapar en paragraf-tag
-// * Lägger in värdet på i som innerHTML
-// * appendar den nya taggen till output_container
-for (let i=0; i<= 30 ;i++){
-    if ((i % 2 === 0) && (i % 3 === 0)){
-        console.log(i+" är delbart med 2 och 3");
-    }
+    // Nu ska vi öva på att dels lägga in flera barn i samma container
+    // och samtidigt lära oss lite hur logiska operatorer fungerar
+    // 5. Skapa en for-loop som itererar i från 0 till 30. Varje gång i är
+    // delbart med 2 OCH 3 vill jag att ni
+    // * Skapar en paragraf-tag
+    // * Lägger in värdet på i som innerHTML
+    // * appendar den nya taggen till output_container
+    // for (let i=0; i<= 30 ;i++){
+    //     if ((i % 2 === 0) && (i % 3 === 0)){
+    //         console.log(i+" är delbart med 2 och 3");
+    //     }
+    //     }
 
     // let new_paragraph = document.createElement("")
     // new_paragraph.innerHTML = i;
     // förälder.appendChild(new_paragraph);
-}
+
 
     // str = "Jag gillar glass"
     // str = str.toLowerCase()
