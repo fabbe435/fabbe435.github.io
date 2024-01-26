@@ -55,15 +55,16 @@ for (let i=0; i<= 30 ;i++){
     // förälder.appendChild(new_paragraph);
 }
 
-str = "Jag gillar glass"
-str = str.toLowerCase()
+    // str = "Jag gillar glass"
+    // str = str.toLowerCase()
 
-if(str.includes("glass")){
-    return true;}
+    // if(str.includes("glass")){
+    //     return true;
+    // }
 
-else if(str.includes("godis")){
-    return true;
-}
+    // else if(str.includes("godis")){
+    //     return true;
+    // }
 
-else{return false;}
+    // else{return false;}
 
