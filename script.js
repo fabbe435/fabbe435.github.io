@@ -36,7 +36,7 @@ let third_paragraph = document.createElement("p");
 third_paragraph.innerHTML = "Dethär är den tredje paragrafen";
 let förälder = document.getElementById("output-container");
 förälder.appendChild(third_paragraph);
-third_paragraph.style.color = "orange";
+third_paragraph.style.color = "black";
 
     // Nu ska vi öva på att dels lägga in flera barn i samma container
     // och samtidigt lära oss lite hur logiska operatorer fungerar
