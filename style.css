@@ -1,6 +1,5 @@
 body {
   height: 100vh;
-  display: flex;
   align-items: center;
   background: linear-gradient(to top left, #43cea2, #185a9d);
 }
@@ -52,4 +51,8 @@ header-container {
   border-width: 1.5px;
   border-radius: 15px; /* Rundade hörn */
   display: block;
+}
+
+#personsList {
+  margin-top: 50px;
 }
