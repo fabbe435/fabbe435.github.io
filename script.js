@@ -64,8 +64,8 @@ console.log(".2")
 // 1. Skapa variablerna firstName och lastName och tilldela dem värden som är strängar. 
 // Skriv ut “Välkommen firstName lastName” (med mellanslag) i konsolen. 
 // Sätt ihop dina strängar med +.
-let firstName = "Nils ";
-let lastName = "Bengtsson";
+let firstName = "";
+let lastName = "";
 
 // 2. Använd dig av en template string för att göra samma sak. Då slipper du använda + och koden brukar bli mer läsbar.
 console.log(`Välkommen ${firstName + lastName}`);
@@ -153,3 +153,24 @@ persons.forEach(person => {
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 console.log(".6")
+// Hämta referens till alla element med en klass.
+// getElementsByClassName() returnerar en collection att loopa över.
+let buttons = document.getElementsByClassName("buy")
+
+// Loopa igenom alla knappar.
+for (let i = 0; i < buttons.length; i++) {
+  const button = buttons[i]
+  // Lägg till eventlyssnare på knappen.
+  button.addEventListener("click", function (event) {
+    console.log("En köpknapp klickades.")
+  })
+}
+
+document.getElementById("submit-btn").addEventListener('click', (event)=>{
+    event.preventDefault()
+    firstName = document.getElementById("fname").value
+    document.getElementById("firstname").innerHTML = `<strong>Förnamn:</strong> ${firstName}`
+    lastName = document.getElementById("lname").value
+    document.getElementById("lastname").innerHTML = `<strong>Efternamn:</strong> ${lastName}`
+})
+
